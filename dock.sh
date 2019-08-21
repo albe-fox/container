@@ -52,7 +52,7 @@ gpgcheck=1
 repo_gpgcheck=1
 gpgkey=https://mirrors.aliyun.com/kubernetes/yum/doc/yum-key.gpg https://mirrors.aliyun.com/kubernetes/yum/doc/rpm-package-key.gpg
 EOF
-yum makecache fast
+yum makecache fast -y
 yum install -y kubelet kubeadm kubectl ipvsadm
 
 cat <<EOF >  /etc/sysctl.d/k8s.conf

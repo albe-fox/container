@@ -98,5 +98,5 @@ else
  systemctl daemon-reload
 systemctl enable kubelet && systemctl restart kubelet
 # get master's kuadmjoin.txt
-# kubeadm koin ...
+# kubeadm join ...
 fi

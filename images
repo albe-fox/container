@@ -1,0 +1,8 @@
+k8s.gcr.iocoredns:1.3.1.tar
+k8s.gcr.ioetcd:3.3.10.tar
+k8s.gcr.iokube-apiserver:v1.15.0.tar
+k8s.gcr.iokube-controller-manager:v1.15.0.tar
+k8s.gcr.iokube-proxy:v1.15.0.tar
+k8s.gcr.iokube-scheduler:v1.15.0.tar
+k8s.gcr.iopause:3.1.tar
+registry.cn-shanghai.aliyuncs.comgcr-k8sflannel:v0.10.0-amd64.tar
